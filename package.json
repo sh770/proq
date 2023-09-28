@@ -2,7 +2,7 @@
   "name": "proq",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.jsx",
   "scripts": {
     "build": "cd backend && pip install -r requirements.txt  && cd ..\frontend && pnpm install && pnpm run build",
     "start": "backend/gunicorn SYSTEMMESEGES.wsgi:application",
